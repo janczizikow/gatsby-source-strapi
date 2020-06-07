@@ -29,8 +29,6 @@ const extractFields = async (
           extractFields(apiURL, store, cache, createNode, touchNode, auth, f)
         )
       )
-
-      return
     }
 
     // image fields have a mime property among other
